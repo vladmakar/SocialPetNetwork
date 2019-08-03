@@ -14,6 +14,9 @@
 		A608ED5A22F37E2E00FCAEE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A608ED5822F37E2E00FCAEE1 /* LaunchScreen.storyboard */; };
 		A608ED6522F37E2E00FCAEE1 /* SocialPetNetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A608ED6422F37E2E00FCAEE1 /* SocialPetNetworkTests.swift */; };
 		A608ED7022F37E2E00FCAEE1 /* SocialPetNetworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A608ED6F22F37E2E00FCAEE1 /* SocialPetNetworkUITests.swift */; };
+		A608ED7E22F38DD000FCAEE1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A608ED7D22F38DD000FCAEE1 /* LoginViewController.swift */; };
+		A608ED8422F396E100FCAEE1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A608ED8322F396E100FCAEE1 /* README.md */; };
+		A6F1513122F5D9C300C833D5 /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F1513022F5D9C300C833D5 /* mapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		A608ED6B22F37E2E00FCAEE1 /* SocialPetNetworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialPetNetworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A608ED6F22F37E2E00FCAEE1 /* SocialPetNetworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialPetNetworkUITests.swift; sourceTree = "<group>"; };
 		A608ED7122F37E2E00FCAEE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A608ED7D22F38DD000FCAEE1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A608ED8322F396E100FCAEE1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A6F1513022F5D9C300C833D5 /* mapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,7 @@
 		A608ED4322F37E2D00FCAEE1 = {
 			isa = PBXGroup;
 			children = (
+				A608ED8322F396E100FCAEE1 /* README.md */,
 				A608ED4E22F37E2D00FCAEE1 /* SocialPetNetwork */,
 				A608ED6322F37E2E00FCAEE1 /* SocialPetNetworkTests */,
 				A608ED6E22F37E2E00FCAEE1 /* SocialPetNetworkUITests */,
@@ -103,6 +110,8 @@
 				A608ED5622F37E2E00FCAEE1 /* Assets.xcassets */,
 				A608ED5822F37E2E00FCAEE1 /* LaunchScreen.storyboard */,
 				A608ED5B22F37E2E00FCAEE1 /* Info.plist */,
+				A608ED7D22F38DD000FCAEE1 /* LoginViewController.swift */,
+				A6F1513022F5D9C300C833D5 /* mapViewController.swift */,
 			);
 			path = SocialPetNetwork;
 			sourceTree = "<group>";
@@ -231,6 +240,7 @@
 			files = (
 				A608ED5A22F37E2E00FCAEE1 /* LaunchScreen.storyboard in Resources */,
 				A608ED5722F37E2E00FCAEE1 /* Assets.xcassets in Resources */,
+				A608ED8422F396E100FCAEE1 /* README.md in Resources */,
 				A608ED5522F37E2D00FCAEE1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A608ED7E22F38DD000FCAEE1 /* LoginViewController.swift in Sources */,
 				A608ED5222F37E2D00FCAEE1 /* ViewController.swift in Sources */,
 				A608ED5022F37E2D00FCAEE1 /* AppDelegate.swift in Sources */,
+				A6F1513122F5D9C300C833D5 /* mapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
